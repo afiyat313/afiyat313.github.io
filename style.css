@@ -1,0 +1,159 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #BBCF9B;
+   text-align: center;
+}
+footer{
+   background-colour: #69456F;
+
+}
+/* STYLE TEXT */
+
+h1 {
+  color:#EFBF38;
+
+   text-shadow: 2px 2px #000000;
+  
+  
+}
+h2 {
+  font-size: 50px;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  color: #e1ff00;
+  font-weight: 1em;
+}
+h4{
+  font-size: 30px;
+  color: #EFBF38;
+  
+  
+}
+
+
+
+em{
+  color: #EFBF38;
+  text-shadow: 2px 2px #000000;
+}
+p{
+  color: #EFBF38;
+  text-shadow: 2px 2px #000000;
+  font-size: 30px;
+  margin: 1em;
+  padding-bottom: 1em;
+  
+}
+.more{
+  color: #e1ff00;
+}
+
+
+.connect{
+  margin: 1em;
+  text-decoration: underline;
+}
+.linkConnect{
+  color: #e1ff00;
+  background-color: #EFBF38;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+.linkConnect:hover {
+  background-color:#BB5472 ;
+}
+
+
+/* STYLE IMAGES */
+img{
+   width: 98%;
+   Height: 30%;
+  
+  
+}
+.box-things{
+  background-color:#498B6D;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+  padding: 0.5em;
+  padding-bottom:0.5em;
+}
+
+
+  li {
+    display: inline;
+    padding-bottom: 0.5em;
+  }
+  li a {
+    text-decoration: none;
+    color: #e1ff00;
+    font-size:1.3em;
+    padding: 1em;
+  }
+  li a:hover{
+    background-color:#BB5472;
+  }
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+/* Container holding the image and the text */
+.flex-container {
+  position: relative;
+  text-align: center;
+  color: #e1ff00;
+  font-size: 50px;
+  
+}
+.football{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 2em;
+  
+  
+}
+#aboutBtn{
+  color:  black;
+  background-color: #EFBF38;
+}
+/* Centered text */
+.flex-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.field{
+  flex-basis: 100%;
+  margin: 1%;
+}
+@media screen and (max-width:850px){
+  .flex-container{
+    flex-wrap: wrap
+  }
+  .flex-item{
+    font-size: 20px;
+  }
+  .mentor{
+    font-size: 14px;
+  }
+ h4{
+   font-size: 16px;
+ }
+p{
+  font-size: 16px;
+}
+}
